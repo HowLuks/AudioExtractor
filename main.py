@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 import gdown
 import uuid
 import os

@@ -1,5 +1,4 @@
 flask
-moviepy.editor
 moviepy
 gdown
 gunicorn
