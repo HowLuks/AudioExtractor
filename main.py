@@ -33,7 +33,7 @@ def extrair_audio():
         clip.audio.write_audiofile(audio_path)
         clip.close()
 
-        return jsonify({"mensagem": "Áudio extraído com sucesso", "arquivo": audio_path})
+        return jsonify({"mensagem": "Áudio extraído", "arquivo": audio_path})
     except Exception as e:
         return jsonify({"erro": str(e)}), 500
 
